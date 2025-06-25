@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.toparea{
+    background:#5EADE2;
+    color:#641E16;
+    padding:0.5px 0;
+}
+.menuarea{
+
+}
+.women{
+    background-color:red;
+}
+.women img{
+    width:110px;
+}
+.women h3{
+    color:#641E16;
+}
+wm{
+    width:100%;
+    
+}
