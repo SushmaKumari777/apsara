@@ -13,6 +13,7 @@ body{
 }
 .women{
     background-color:red;
+    height:500px;
 }
 .women img{
     width:110px;
@@ -20,7 +21,13 @@ body{
 .women h3{
     color:#641E16;
 }
-wm{
-    width:100%;
-    
+
+.men{
+    background-color:palevioletred;
+}
+.men img{
+    width:110px;
+}
+.men h3{
+    color:#641E16;
 }
