@@ -23,9 +23,9 @@ body {
     margin-top: 20px;
 }
 
-.women h3 {
+.women h2 {
     color: #641E16;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
@@ -40,9 +40,9 @@ body {
     margin-top: 20px;
 }
 
-.men h3 {
+.men h2 {
     color: #641E16;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .square {
@@ -107,4 +107,42 @@ body {
 }
 .rupees{
     text-decoration: line-through;
+}
+
+.womenCollection{
+    background-color:pink;
+    height: 700px;
+  
+}
+.womenCollection h2{
+    color:#641E16;
+    margin-top:20px;
+}
+.collection{
+    background-color: #5EADE2;
+    height: 500px;
+    width:250px;
+    border-radius:10px;
+    transition-property:transform;
+    transition-duration:0.5s;
+    transition-timing-function:ease-in-out;
+    overflow:hidden;
+    margin-top:30px;
+
+}
+.collection img{
+    width: 250px;
+    height:500px;
+    border-radius:10px;
+    transition-property:transform;
+    transition-duration:0.5s;
+   
+}
+.collection img:hover{
+    transform:scale(1.1,1.1);
+}
+.collection:hover{
+    box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
 }
