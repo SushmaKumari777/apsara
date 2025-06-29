@@ -9,7 +9,9 @@ body {
     color: #641E16;
     padding: 0.5px 0;
 }
-
+.toparea p{
+    margin:0;
+}
 .menuarea {}
 
 .women {
@@ -32,6 +34,7 @@ body {
 .men {
     background-color: #5EADE2;
     height: 700px;
+    padding:25px 0;
 }
 
 .men img {
@@ -187,7 +190,7 @@ body {
     width: 230px;
     height: 250px;
     background:#C8CBCC;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
     margin-top: 40px;
     border-radius: 10px;
     
@@ -209,7 +212,7 @@ body {
 }
 
 .gallery1 {
-    transform: rotate(1deg);
+    transform: rotate(6deg);
     margin-left: 10px;
     transition-duration: 0.2s;
 }
@@ -223,6 +226,36 @@ body {
     transition-duration: 0.2s;
 }
 .gallery2:hover{
+    transform: rotate(0deg);
     
     transform: scale(1.1, 1.1);
+}
+/* .gbox{ 
+  width:100%;
+    padding:10px 10px;
+    background:silver;
+margin:20px;
+}
+.xyz:hover{
+    transform:scale(1.2,1.2);
+}
+.gbox img{
+    width:100%;
+}
+.gboxr{
+    transform:rotate(10deg);
+}
+.gboxr:hover{ 
+    transform:rotate(10deg) scale(1.2,1.2);
+}*/
+.footerarea{
+    height:400px;
+    background:#641E16;
+    color:white;
+}
+.foot ul li{
+    text-decoration:none;
+    color: white;
+    list-style:none;
+
 }
