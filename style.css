@@ -12,7 +12,20 @@ body {
 .toparea p{
     margin:0;
 }
-.menuarea {}
+.menuarea {
+    height:500px;
+    background:red;
+    position:relative;
+}
+.menuarea ul{
+    position:absolute;
+    top:0;
+}
+.menuarea ul li{
+    list-style:none;
+    float:left;
+    margin:10px;
+}
 
 .women {
     background-color: white;
@@ -251,11 +264,12 @@ margin:20px;
 .footerarea{
     height:400px;
     background:#641E16;
-    color:white;
+    
 }
-.foot ul li{
-    text-decoration:none;
-    color: white;
+.footerarea ul li{
+    color:white;
     list-style:none;
-
+    text-align: center;
+    float:left;
+    margin:10px;
 }
