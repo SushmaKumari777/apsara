@@ -146,3 +146,20 @@ body {
     -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
     -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
 }
+.menCollection{
+    background-color:red;
+    height: 700px;
+}
+.menCollection h2{
+    margin-top:30px;
+    color:#641E16;
+}
+.imageGallery{
+    height:500px;
+    background:yellow;
+}
+.gallery{
+    width:100px;
+    height:100px;
+    background:blue;
+}
