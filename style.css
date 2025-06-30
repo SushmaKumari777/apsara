@@ -7,26 +7,51 @@ body {
 .toparea {
     background: #5EADE2;
     color: #641E16;
-    padding: 0.5px 0;
+     padding: 0.5px 0; 
+    
 }
-.toparea p{
+ .toparea p{ 
     margin:0;
 }
 .menuarea {
-    height:500px;
-   
+    height:100%;
+    width:100%;
+   background:red;
     position:relative;
+    margin:0;
+    padding:0;
 }
 .menuarea ul{
     position:absolute;
     top:0;
+    color:#641E16
 }
 .menuarea ul li{
     list-style:none;
     float:left;
     margin:10px;
 }
+.menuarea ul li a:link .menuarea ul li a:visited{
+    text-decoration:none;
+    text-align:center;
+}
 
+.menuarea ul li:hover ul{
+    display:block;
+    position:absolute;
+    z-index:100;
+
+}
+.menuarea ul li:hover ul li{
+    float:none;
+}
+.dropdown-item{
+    color:#641E16;
+}
+.menuarea video{
+    width:100%;
+    height:100%;
+}
 .women {
     background-color: white;
     height: 700px;
@@ -239,11 +264,11 @@ body {
     transition-duration: 0.2s;
 }
 .gallery2:hover{
-    transform: rotate(0deg);
+ 
     
     transform: scale(1.1, 1.1);
 }
-/* .gbox{ 
+ /*.gbox{ 
   width:100%;
     padding:10px 10px;
     background:silver;
@@ -272,4 +297,14 @@ margin:20px;
     text-align: center;
     float:left;
     margin:10px;
+}
+.pooh{
+    height:300px;
+    background-color: #5EADE2;
+}
+.pooh img{
+    float:right;
+    height:250px;
+    width:250px;
+    border-radius:10px;
 }
