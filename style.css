@@ -298,7 +298,8 @@ margin:20px;
     margin:10px;
 }
 .pooh{
-    height:300px;
+    height:100%;
+    width: 1000%;
     background-color: #5EADE2;
     
 }
@@ -309,17 +310,8 @@ margin:20px;
 }
 .pooh img{
     float:right;
-    width:300px; 
-   height:px;
-   position:absolute;
-    /* border-radius:1500px 1500px; */
-    margin-top:0px;
-    clip-path: inset(5% 20% 15% 10% round 5% 20% 0 10%);
-    /* margin-right:20px; */
-    /* clip-path: inset(26% 20% 36% 10% round 5% 20% 0 10%); */
-    /* clip-path: inset(5% 20% 15% 10% round 5% 20% 0 10%); */
-    /* clip-path: inset(24% 9% 28% 4% round 5% 20% 0 10%); */
-    /* clip-path: inset(43% 20% 27% 10% round 5% 20% 0 10%); */
-    /* clip-path: inset(34% 1% 30% 0 round 5% 20% 0 10%); */
-     /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
+    width:100px; 
+   height:100px;
+   clip-path: inset(5% 20% 15% 10% round 5% 20% 0 10%);
+    clip-path: inset(35% 0 2% 0 round 5% 20% 0 10%);
 }
