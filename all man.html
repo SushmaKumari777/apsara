@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .firstsection {
+            width: 100vw;
+            height: 300px;
+            background:white;
+
+
+        }
+
+        .firstsection h2 {
+            color: #641E16;
+            margin-top: 100px;
+            padding-right: 400px;
+            font-size: 50px;
+        }
+
+        .menuarea {
+            width: 100%;
+            height: 50px;
+            background: white;
+            color: #641E16;
+            font-weight: bold;
+            margin-top:20px;
+            margin-bottom:20px;
+        }
+
+        .menuarea ul li {
+            float: left;
+            margin: 20px;
+            list-style: none;
+
+        }
+
+        .menuarea ul li:hover ul {
+            display: block;
+            position: absolute;
+            z-index: 1000;
+            margin-top: 10px;
+
+        }
+
+        .topimage {
+            width: 90%;
+            height: 250px;
+            background-color: #641E16;
+            border-radius: 10px 55px;
+            overflow: hidden;
+            margin: 20px;
+            box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+            -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+            -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+
+
+        }
+
+        .topimage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+
+        }
+
+        .pproduct {
+            width: 100%;
+            height: 1200px;
+            background:palevioletred;
+        }
+
+        .square {
+            width: 200px;
+            height: 450px;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 10px;
+            transition-property: transform;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+            margin-left: 20px;
+
+        }
+
+        .square:hover {
+
+            box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+            -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+            -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
+
+        }
+
+        .square img {
+            width: 180px;
+            height: 260px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+        .box {
+            margin-top: 10px;
+        }
+
+        .box p {
+            font-size: 15px;
+
+            color: #641E16;
+        }
+
+        .box h6 {
+            color: #641E16
+        }
+
+        .rupees {
+            text-decoration: line-through;
+        }
+
+        .d-flex .btn-outline-success {
+            background: white;
+            color: #641E16;
+            border-color: #641E16;
+            margin-left: 20px;
+            margin-top: 10px;
+            width: 150px;
+        }
+
+        .d-flex:hover .btn-outline-success {
+            background-color: #641E16;
+            color: white;
+            box-shadow: 7px 8px 7px -1px rgba(0, 0, 0, 0.23);
+            -webkit-box-shadow: 7px 8px 7px -1px rgba(0, 0, 0, 0.23);
+            -moz-box-shadow: 7px 8px 7px -1px rgba(0, 0, 0, 0.23);
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="firstsection">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>All man</h2>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="menuarea">
+
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>Filter:</li>
+                    <li><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">availibility</a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="#">xyz</a></li>
+                            <li><a class="dropdown-item" href="#">xyz</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">price</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">xyz</a></li>
+                            <li><a class="dropdown-item" href="#">xyz</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="col">
+                <ul>
+                    <li>Sort by:</li>
+                    <li>
+                    <li>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Best selling</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">xyz</a></li>
+                            <li><a class="dropdown-item" href="#">xyz</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="pproduct">
+        <div class="conatiner">
+            <div class="row">
+                <div class="col">
+                    <div class="square">
+                        <img src="allmanp.jpg" alt="">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col">
+                                    <p>V neck Strap Kurti</p>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="rupees">Rs 999.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6>Rs 599.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form class="d-flex" role="search">
+                                <button class="btn btn-outline-success" type="submit">Choose Option</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="square">
+                        <img src="allmanp.jpg" alt="">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col">
+                                    <p>V neck Strap Kurti</p>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="rupees">Rs 999.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6>Rs 599.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form class="d-flex" role="search">
+                                <button class="btn btn-outline-success" type="submit">Choose Option</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="square">
+                        <img src="allmanp.jpg" alt="">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col">
+                                    <p>V neck Strap Kurti</p>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="rupees">Rs 999.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6>Rs 599.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form class="d-flex" role="search">
+                                <button class="btn btn-outline-success" type="submit">Choose Option</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="square">
+                        <img src="allmanp.jpg" alt="">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col">
+                                    <p>V neck Strap Kurti</p>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="rupees">Rs 999.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6>Rs 599.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form class="d-flex" role="search">
+                                <button class="btn btn-outline-success" type="submit">Choose Option</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="square">
+                        <img src="allmanp.jpg" alt="">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col">
+                                    <p>V neck Strap Kurti</p>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="rupees">Rs 999.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6>Rs 599.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form class="d-flex" role="search">
+                                <button class="btn btn-outline-success" type="submit">Choose Option</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="square">
+                        <img src="allmanp.jpg" alt="">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col">
+                                    <p>V neck Strap Kurti</p>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="rupees">Rs 999.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6>Rs 599.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form class="d-flex" role="search">
+                                <button class="btn btn-outline-success" type="submit">Choose Option</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
