@@ -323,3 +323,9 @@ margin:20px;
     width:1000px;
     background:red;
 }
+.home ul{
+ list-style: none;
+}
+.home ul li{
+    float:left;
+}
