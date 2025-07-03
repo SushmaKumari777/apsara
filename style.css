@@ -293,7 +293,24 @@ margin:20px;
 .review h1{
     color:#641E16;
     margin-top:50px;
-    text-shadow: 4px 4px 7px rgba(0,0,0,0.44);
+    /* text-shadow: 4px 4px 7px rgba(0,0,0,0.44); */
+    text-align:center;
+    position:relative;
+}
+.review h1:before, .review h1:after{
+position:absolute;
+background:red;
+width:25%;
+height:1px;
+content:"";
+top:50%;
+
+}
+.review h1:before{
+    left:0;
+}
+.review h1:after{
+    right:0;
 }
 .reviewbox{
     width:350px;
@@ -323,9 +340,22 @@ margin:20px;
     width:1000px;
     background:red;
 }
+.home{
+    height:50px;
+
+    background:#5EADE2;
+    color:#641E16;
+}
 .home ul{
  list-style: none;
 }
 .home ul li{
     float:left;
+    margin:10px;
+}
+.home ul li:after{
+    content:" / ";
+}
+.home ul li:last-child:after{
+    content:" ";
 }
