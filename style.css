@@ -53,7 +53,7 @@ body {
 }
 .women {
     background-color: white;
-    height: 700px;
+    /* height: 700px; */
 }
 
 .women img {
@@ -70,7 +70,7 @@ body {
 
 .men {
     background-color:palevioletred;
-    height: 700px;
+    /* height: 700px; */
     padding:25px 0;
 }
 
@@ -94,6 +94,7 @@ body {
     transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    margin:0 auto;
 }
 
 .square:hover {
@@ -154,7 +155,7 @@ body {
 
 .womenCollection {
     background-color:white;
-    height: 700px;
+    /* height: 700px; */
 
 }
 
@@ -197,7 +198,7 @@ body {
 
 .menCollection {
     background-color:white;
-    height: 700px;
+    /* height: 700px; */
 }
 
 .menCollection h2 {
