@@ -360,3 +360,11 @@ top:50%;
 .home ul li:last-child:after{
     content:" ";
 }
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+.changeColor{
+    background:red;
+}

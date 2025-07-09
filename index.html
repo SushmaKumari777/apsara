@@ -62,7 +62,8 @@
                         </li>
                         <li>Today's Deals</li>
                         <li>Contact us</li>
-                        <li><i class="fa fa-search" aria hidden="true"></i></li>
+                        <li><i class="fa fa-search"></i></li>
+                        <li><i class=</li>
 
                     </ul>
                 </div>
@@ -72,6 +73,7 @@
         </div>
 
     </section>
+    
 
     <section class="women">
         <div class="container">
@@ -571,6 +573,20 @@
             duration: 2000
         });
     </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+    $( function () {
+    $( window ).scroll( function () {
+        if ( $( this ).scrollTop() > 100 ) {
+            $( 'header' ).addClass( 'changeColor' );
+        } else {
+            $( 'header' ).removeClass( 'changeColor' );
+        }
+    });
+});
+</script>
 
 </body>
 
