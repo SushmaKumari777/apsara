@@ -214,7 +214,7 @@ body {
 
 }
 
-.collection img:hover {
+.collection img:hover{
     transform: scale(1.1, 1.1);
 }
 
@@ -223,6 +223,12 @@ body {
     -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
     -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.27);
 }
+.pooh p{
+color:#641E16;
+text-align: left;
+
+}
+
 
 .menCollection {
     background-color:#5EADE2;
@@ -330,7 +336,7 @@ margin:20px;
 }
 .review h1:before, .review h1:after{
 position:absolute;
-background:red;
+background:#641E16;
 width:25%;
 height:1px;
 content:"";
@@ -394,6 +400,7 @@ top:50%;
     position:sticky;
     top:0;
     z-index:1000;
+   
 }
 /* .changeColor{
     background:;
