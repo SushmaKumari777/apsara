@@ -47,6 +47,7 @@ body {
     color:white;
     font:bold 25px; 
     transition:all 0.5s;
+    
    
     
 } 
@@ -396,3 +397,6 @@ top:50%;
 /* .changeColor{
     background:;
 }  */
+  .d-flex:hover{
+    
+  }
