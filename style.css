@@ -28,6 +28,7 @@ body {
     color:white;
     /* opacity:1.5;
     overflow:hidden; */
+
 }
 .menuarea ul li{
     list-style:none;
@@ -389,7 +390,7 @@ top:50%;
 .home ul li:last-child:after{
     content:" ";
 }
- header{ 
+ .details{ 
     position:sticky;
     top:0;
     z-index:1000;
@@ -397,6 +398,4 @@ top:50%;
 /* .changeColor{
     background:;
 }  */
-  .d-flex:hover{
-    
-  }
+ 
